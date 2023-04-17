@@ -11,11 +11,11 @@
   "author": "TrumLxrd",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/rest": "^1.0.0",
-    "discord.js": "^14.7.1",
+    "@discordjs/rest": "^1.6.0",
+    "discord.js": "^14.8.0",
     "fs": "^0.0.2",
     "got": "^10.7.0",
-    "jimp": "^0.22.7",
+    "jimp": "^0.16.1",
     "moment": "^2.29.4",
     "mongoose": "^5.12.3",
     "node-fetch": "^2.6.6"

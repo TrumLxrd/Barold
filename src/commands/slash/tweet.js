@@ -37,7 +37,7 @@ module.exports = {
         return interaction.reply("Please enter what you want to tweet!");
       }
     } catch (err) {
-      console.error(`[ERROR] Error encountered.`);
+      console.error(err);
     }
   },
 };

@@ -15,7 +15,7 @@
 
 ## 📝 Overview
 
-**Barold** is a feature-rich Discord bot built with **Discord.js** that supports both **traditional prefix commands** and **modern slash commands**. Designed for utility and entertainment, Barold enhances your server's experience with commands for latency checks, memes, fake tweets, and more.
+**Barold** is a feature-rich Discord bot built with Discord.js that supports both traditional prefix commands and modern slash commands. Designed for utility and entertainment, Barold enhances your server's experience with commands for latency checks, memes, fake tweets, and more.
 
 ---
 
@@ -28,19 +28,19 @@ The last significant updates were in **February 2024**. The code is provided for
 
 ## 🛠️ Features
 
-- **Dual Command System** — Supports both prefix commands and slash commands.  
-- **Modular Event Handlers** — Easy to extend and manage interactions.  
-- **Heroku Compatibility** — Comes with `Procfile` for deployment.  
-- **Utility & Entertainment Commands** — Latency, memes, fake tweets, and more.
+- Dual Command System — Supports both prefix commands and slash commands.
+- Modular Event Handlers — Easy to extend and manage interactions.
+- Heroku Compatibility — Comes with `Procfile` for deployment.
+- Utility & Entertainment Commands — Latency, memes, fake tweets, and more.
 
 ---
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-- Node.js (v16.9.0+ recommended)  
-- npm or yarn  
-- Discord Bot Token (from [Discord Developer Portal](https://discord.com/developers/applications))  
+- Node.js (v16.9.0+ recommended)
+- npm or yarn
+- Discord Bot Token (from [Discord Developer Portal](https://discord.com/developers/applications))
 - MongoDB connection string (for database features)
 
 ### Setup steps
@@ -62,7 +62,7 @@ npm install
 ```
 TOKEN=your_discord_bot_token
 MONGO=your_mongodb_connection_string
-PREFIX=im
+PREFIX=!
 OWNERID=your_discord_user_id
 ```
 
@@ -81,6 +81,7 @@ node src/index.js
 ---
 
 ## 🗂️ Structure Overview
+
 ```
 BaroldSlash/
 ├── src/
@@ -98,14 +99,16 @@ BaroldSlash/
 ---
 
 ## 🔧 Configuration
+
 - `TOKEN`: Bot token (required)  
 - `MONGO`: MongoDB connection string (required)  
-- `PREFIX`: Command prefix (default: `im`)  
+- `PREFIX`: Command prefix (default: `!`)  
 - `OWNERID`: Your Discord User ID (for owner-only commands)
 
 ---
 
 ## 🚀 Deployment on Heroku
+
 The included `Procfile` allows easy deployment:
 
 ```
@@ -118,6 +121,7 @@ Configure environment variables via Heroku Dashboard.
 ---
 
 ## 🛡️ Security & Usage Notes
+
 - `eval` command is owner-only and **restricted**.  
 - Never share your bot token. Keep your `.env` secure.  
 - This project is **archived**; no bug fixes or new features will be added.  
@@ -126,20 +130,34 @@ Configure environment variables via Heroku Dashboard.
 ---
 
 ## 📄 License
+
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🤝 Author & Acknowledgements
+
 - **Author:** TrumLxrd – [GitHub](https://github.com/TrumLxrd)  
+- Special thanks to contributors and testers, including **Cojored, Loze, and thebeast1089**.
 
 ---
 
 ## 🔗 Useful Links
+
 - [Discord.js Documentation](https://discord.js.org/#/docs)  
 - [Discord Developer Portal](https://discord.com/developers/applications)  
 - [Discord.js Guide](https://discordjs.guide)  
 
 ---
 
-*This project showcases Discord.js v13+ capabilities, including slash commands and event-driven architecture. It is now **archived** and intended solely for educational use.*
+## 🌟 Support & Reviews on Top.gg
+
+[Check Barold on Top.gg](https://top.gg/bot/769998530445312010?s=09e612a2d9b17)
+
+<a href="https://top.gg/bot/769998530445312010">
+  <img src="https://top.gg/api/widget/769998530445312010.svg" alt="Barold Top.gg widget" />
+</a>
+
+---
+
+<p align="center">💻 Crafted with ❤️ by trumy</p>

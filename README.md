@@ -211,8 +211,3 @@ Pull requests may not be reviewed, but feel free to fork and modify freely.
 - Built as a learning project showcasing Discord.js v13+ capabilities including slash commands.  
 - Image generation features require Canvas library and setup.  
 - Additional permissions and setup may be needed in your Discord server.
-
----
-```
-
-This markdown uses the GitHub shortcut syntax `=150x150` after the image URL to scale the displayed image smaller while keeping the rest of the formatting intact, ideal for an easy-to-copy README file. If you want the image rendered at another size, just replace the dimensions accordingly.

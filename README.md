@@ -1,5 +1,7 @@
 # Barold
 
+<img src="https://dodo.ac/np/images/thumb/c/c6/Barold_NH.png/200px-Barold_NH.png" alt="Barold" width="200"/>
+
 A Discord bot built with Discord.js that supports both traditional prefix commands and modern slash commands. Barold provides utility commands and entertainment features for Discord servers.
 
 ## ⚠️ Maintenance Status

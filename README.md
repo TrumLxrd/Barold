@@ -62,7 +62,7 @@ npm install
 ```
 TOKEN=your_discord_bot_token
 MONGO=your_mongodb_connection_string
-PREFIX=!
+PREFIX=im
 OWNERID=your_discord_user_id
 ```
 
@@ -100,7 +100,7 @@ BaroldSlash/
 ## 🔧 Configuration
 - `TOKEN`: Bot token (required)  
 - `MONGO`: MongoDB connection string (required)  
-- `PREFIX`: Command prefix (default: `!`)  
+- `PREFIX`: Command prefix (default: `im`)  
 - `OWNERID`: Your Discord User ID (for owner-only commands)
 
 ---
@@ -132,7 +132,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 🤝 Author & Acknowledgements
 - **Author:** TrumLxrd – [GitHub](https://github.com/TrumLxrd)  
-- Special thanks to contributors and testers, including **Cojored, Loze, and thebeast1089**.
 
 ---
 

@@ -1,7 +1,7 @@
 
 # Barold
 
-![Barold Bot](https://github.com/TrumLxrd/BaroldSlash/blob/c5c36e586135449c07cf8eda1f370469d54616c8/R.jpg)
+![Barold Bot](https://github.com/TrumLxrd/BaroldSlash/blob/c5c36e586135449c07cf8eda1f370469d54616c8/R.jpg =150x150)
 
 A versatile Discord bot built with Discord.js that supports both **traditional prefix commands** and **modern slash commands**. Barold offers utility and entertainment features to enhance your Discord server experience.
 
@@ -215,4 +215,4 @@ Pull requests may not be reviewed, but feel free to fork and modify freely.
 ---
 ```
 
-This code block contains the entire improved README formatted in markdown with the image link included at the top. You can easily select and copy it directly into your text editor or README file. This approach keeps all formatting intact, making it simple to maintain and share. If you want it exported in another format or further customization, just ask!
+This markdown uses the GitHub shortcut syntax `=150x150` after the image URL to scale the displayed image smaller while keeping the rest of the formatting intact, ideal for an easy-to-copy README file. If you want the image rendered at another size, just replace the dimensions accordingly.

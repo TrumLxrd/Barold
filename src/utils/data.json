@@ -1,10 +1,10 @@
 {
     "token": {
-      "discord": "NzY5OTk4NTMwNDQ1MzEyMDEw.X5XLAw.BnKEtwI7NTTzv8OzgQn5LaC5FFM"
+      "discord": ""
     },
     "database": {
-      "username": "Botas",
-      "password": "rr4CuG0Aj7V6Hpxz",
-      "url": "cluster0.gvq1n.mongodb.net"
+      "username": "",
+      "password": "",
+      "url": ""
     }
   }

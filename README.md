@@ -154,9 +154,11 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 [Check Barold on Top.gg](https://top.gg/bot/769998530445312010?s=09e612a2d9b17)
 
-<a href="https://top.gg/bot/769998530445312010">
-  <img src="https://top.gg/api/widget/769998530445312010.svg" alt="Barold Top.gg widget" />
-</a>
+<p align="center">
+  <a href="https://top.gg/bot/769998530445312010">
+    <img src="https://top.gg/api/widget/769998530445312010.svg" alt="Barold Top.gg widget" />
+  </a>
+</p>
 
 ---
 

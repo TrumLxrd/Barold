@@ -1,4 +1,4 @@
-```markdown
+
 # Barold
 
 ![Barold Bot](https://github.com/TrumLxrd/BaroldSlash/blob/c5c36e586135449c07cf8eda1f370469d54616c8/R.jpg)

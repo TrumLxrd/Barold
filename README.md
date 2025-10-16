@@ -1,6 +1,6 @@
-# BaroldSlash
+# Barold
 
-A Discord bot built with Discord.js that supports both traditional prefix commands and modern slash commands. BaroldSlash provides utility commands and entertainment features for Discord servers.
+A Discord bot built with Discord.js that supports both traditional prefix commands and modern slash commands. Barold provides utility commands and entertainment features for Discord servers.
 
 ## ⚠️ Maintenance Status
 
@@ -9,10 +9,6 @@ A Discord bot built with Discord.js that supports both traditional prefix comman
 ## 📋 Features
 
 - **Dual Command System**: Supports both traditional prefix commands and Discord slash commands
-- **Meme Generation**: Generate random memes with customizable text
-- **Tweet Generation**: Create fake tweet images with custom content
-- **Ping Command**: Check bot latency and response time
-- **Code Evaluation**: Developer-only eval command for debugging (restricted access)
 - **Event-Driven Architecture**: Modular event handlers for interactions and messages
 - **Heroku Ready**: Includes Procfile for easy deployment
 
@@ -29,8 +25,8 @@ A Discord bot built with Discord.js that supports both traditional prefix comman
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/TrumLxrd/BaroldSlash.git
-   cd BaroldSlash
+   git clone https://github.com/TrumLxrd/Barold.git
+   cd Barold
    ```
 
 2. **Install dependencies**
@@ -63,8 +59,6 @@ A Discord bot built with Discord.js that supports both traditional prefix comman
 Key dependencies include:
 - `discord.js` - Discord API wrapper
 - `mongoose` - MongoDB object modeling
-- `dotenv` - Environment variable management
-- `canvas` - Image manipulation for meme/tweet generation
 
 (See `package.json` for complete dependency list)
 
@@ -96,7 +90,7 @@ Prefix commands use your configured prefix (default in code examples below shows
 
 !ping
 !meme Success kid Deployed to production No errors
-!tweet BaroldBot Hello from BaroldSlash!
+!tweet BaroldBot Hello from Barold!
 ```
 
 ## 🗂️ Project Structure
@@ -158,20 +152,6 @@ worker: node src/index.js
    heroku ps:scale worker=1
    ```
 
-## 📝 Main Commands Details
-
-### Ping Command
-Checks the bot's latency and responsiveness. Useful for monitoring bot health and connection quality.
-
-### Meme Command
-Generates memes using predefined templates from the `data.json` file. Users can specify top and bottom text to customize the meme. The bot uses Canvas to render text on random meme templates.
-
-### Tweet Command
-Creates realistic-looking fake tweet images. Users specify a username and tweet content, and the bot generates an image resembling a Twitter/X post.
-
-### Eval Command (Owner Only)
-A powerful developer command that allows the bot owner to execute arbitrary JavaScript code. This is restricted to the owner ID specified in the environment variables for security reasons.
-
 ## 🛡️ Security Notes
 
 - The `eval` command is restricted to the bot owner only (checked via `OWNERID` environment variable)
@@ -207,6 +187,5 @@ As this project is no longer actively maintained, pull requests may not be revie
 
 ---
 
-**Last Updated:** October 2025  
 **Status:** Archived/Unmaintained  
 **Discord.js Version:** v13+

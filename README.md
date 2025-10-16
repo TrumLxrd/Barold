@@ -138,7 +138,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 🤝 Author & Acknowledgements
 
 - **Author:** TrumLxrd – [GitHub](https://github.com/TrumLxrd)  
-- Special thanks to contributors and testers, including **Cojored, Loze, and thebeast1089**.
 
 ---
 

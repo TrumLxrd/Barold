@@ -1,7 +1,7 @@
 
 # Barold
 
-![Barold Bot](https://github.com/TrumLxrd/BaroldSlash/blob/c5c36e586135449c07cf8eda1f370469d54616c8/R.jpg =150x150)
+<img src="https://github.com/TrumLxrd/BaroldSlash/blob/c5c36e586135449c07cf8eda1f370469d54616c8/R.jpg" alt="Barold Bot" width="150" height="150" />
 
 A versatile Discord bot built with Discord.js that supports both **traditional prefix commands** and **modern slash commands**. Barold offers utility and entertainment features to enhance your Discord server experience.
 
